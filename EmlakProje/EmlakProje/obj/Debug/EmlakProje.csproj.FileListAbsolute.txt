@@ -1,0 +1,66 @@
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\EmlakProje.exe.config
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\EmlakProje.exe
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\EmlakProje.pdb
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\Npgsql.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Buffers.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Memory.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Text.Json.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.ValueTuple.dll
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\Npgsql.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Buffers.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Memory.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Text.Json.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\bin\Debug\System.ValueTuple.xml
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csprojAssemblyReference.cache
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.Form1.resources
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.Properties.Resources.resources
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csproj.GenerateResource.cache
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csproj.CoreCompileInputs.cache
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csproj.CopyComplete
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.exe
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.pdb
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.frmEmlakci.resources
+C:\Users\ozgur\source\repos\EmlakProje\EmlakProje\obj\Debug\EmlakProje.frmMusteri.resources
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\EmlakProje.exe.config
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\EmlakProje.exe
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\EmlakProje.pdb
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\Npgsql.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Buffers.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Memory.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Numerics.Vectors.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Text.Encodings.Web.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Text.Json.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.ValueTuple.dll
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\Npgsql.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Buffers.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Memory.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Numerics.Vectors.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Text.Encodings.Web.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Text.Json.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\bin\Debug\System.ValueTuple.xml
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csprojAssemblyReference.cache
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.Form1.resources
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.frmEmlakci.resources
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.frmMusteri.resources
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.Properties.Resources.resources
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csproj.GenerateResource.cache
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csproj.CoreCompileInputs.cache
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.csproj.CopyComplete
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.exe
+D:\OneDrive Dosyaları\OneDrive\Masaüstü\EmlakProje\EmlakProje\EmlakProje\obj\Debug\EmlakProje.pdb
