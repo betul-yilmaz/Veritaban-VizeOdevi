@@ -1,0 +1,23 @@
+-- FUNCTION: public.username_check(character varying)
+
+-- DROP FUNCTION public.username_check(character varying);
+
+CREATE OR REPLACE FUNCTION public.username_check(_username character varying)
+    RETURNS integer
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+    
+AS $BODY$
+begin
+	if(select count(*) from users where username=_username) >0 then
+		return 1; -- Kullanıcı adı kullanılıyor.
+	else
+		return 0; --Kullanıcı adı kullanılmıyor.
+	end if;
+end
+$BODY$;
+
+ALTER FUNCTION public.username_check(character varying)
+    OWNER TO postgres;

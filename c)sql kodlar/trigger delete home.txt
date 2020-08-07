@@ -1,0 +1,13 @@
+CREATE OR REPLACE FUNCTION trigger_homes() RETURNS TRIGGER AS'
+BEGIN
+INSERT INTO deleted_homes (homes_id, title, price, city, county, area, neighborhood, release_date, property_type, gross, clear, number_of_rooms, building_age, floor_location, number_of_floors, heating, number_of_bathrooms, balcony, furnished, using_status, within_the_site, dues, available_for_loan, swap, phone_number, explanation, home_owner, user_id) values (OLD.homes_id, OLD.title, OLD.price, OLD.city, OLD.county, OLD.area, OLD.neighborhood, OLD.release_date, OLD.property_type, OLD.gross, OLD.clear, OLD.number_of_rooms, OLD.building_age, OLD.floor_location, OLD.number_of_floors, OLD.heating, OLD.number_of_bathrooms, OLD.balcony, OLD.furnished, OLD.using_status, OLD.within_the_site, OLD.dues, OLD.available_for_loan, OLD.swap, OLD.phone_number, OLD.explanation, OLD.home_owner, OLD.user_id);
+RETURN OLD;
+END;
+' LANGUAGE 'plpgsql';
+
+CREATE TRIGGER trigger_deleted_homes BEFORE DELETE ON homes
+    FOR EACH ROW 
+    EXECUTE PROCEDURE trigger_homes()
+	
+	--trigger silmek için önce bu kod: DROP TRIGGER trigger_deleted_homes on homes;
+	--trigger silmek için önce bu kod Sonra: DROP FUNCTION trigger_homes(); 

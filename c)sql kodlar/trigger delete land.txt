@@ -1,0 +1,13 @@
+CREATE OR REPLACE FUNCTION trigger_lands() RETURNS TRIGGER AS'
+BEGIN
+INSERT INTO deleted_lands (lands_id, title, price, city, county, area, neighborhood, release_date, property_type, island_no, parcel_no, threader_no, zoning_status, provision_for_floor, available_for_loan, swap, phone_number, explanation, land_owner, user_id) values (OLD.lands_id, OLD.title, OLD.price, OLD.city, OLD.county, OLD.area, OLD.neighborhood, OLD.release_date, OLD.property_type, OLD.island_no, OLD.parcel_no, OLD.threader_no, OLD.zoning_status, OLD.provision_for_floor, OLD.available_for_loan, OLD.swap, OLD.phone_number, OLD.explanation, OLD.land_owner, OLD.user_id);
+RETURN OLD;
+END;
+' LANGUAGE 'plpgsql';
+
+CREATE TRIGGER trigger_deleted_lands BEFORE DELETE ON lands
+    FOR EACH ROW 
+    EXECUTE PROCEDURE trigger_lands()
+	
+	 --trigger silmek için önce bu kod: DROP TRIGGER trigger_deleted_lands on lands; 
+	 --trigger silmek için önce bu kod Sonra: DROP FUNCTION trigger_lands(); 

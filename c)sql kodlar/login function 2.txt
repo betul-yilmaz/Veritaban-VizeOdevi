@@ -1,0 +1,13 @@
+-- create function Müşteri login ---
+create function musteri_login(_username character varying , _password character varying)
+returns int as
+$$
+begin
+	if(select count(*) from users where username=_username and passwords = _password and authority=1) >0 then
+		return 1; --Müşteri girişi başarılı
+	else
+		return 0; --Müşteri girişi başarısız
+	end if;
+end
+$$
+language plpgsql

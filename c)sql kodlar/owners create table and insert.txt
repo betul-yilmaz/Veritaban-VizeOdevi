@@ -1,0 +1,28 @@
+-- Table: public.owners
+
+-- DROP TABLE public.owners;
+
+CREATE TABLE public.owners
+(
+    owner_tc bigint NOT NULL,
+    owner_name character varying COLLATE pg_catalog."default" NOT NULL,
+    owner_surname character varying COLLATE pg_catalog."default" NOT NULL,
+    owner_mail character varying COLLATE pg_catalog."default" NOT NULL,
+    owner_phone character varying COLLATE pg_catalog."default",
+    CONSTRAINT owners_pkey PRIMARY KEY (owner_tc)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.owners
+    OWNER to postgres;
+
+
+
+INSERT INTO public.owners(
+	owner_tc, owner_name, owner_surname, owner_mail, owner_phone)
+	VALUES (12345678912, 'Ahmet', 'ALTINDAL', 'aabc@hotmail.com', '(256) 852-35-45');
+
+INSERT INTO public.owners(
+	owner_tc, owner_name, owner_surname, owner_mail, owner_phone)
+	VALUES (98765432198, 'Ali', 'GÜZELDAĞ', 'ali@hotmail.com', '(256) 712-35-45');

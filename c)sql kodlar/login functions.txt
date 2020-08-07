@@ -1,0 +1,15 @@
+-- create function emlakçı login ---
+create function emlakci_login(_username character varying , _password character varying)
+returns int as
+$$
+begin
+	if(select count(*) from users where username=_username and passwords = _password and authority=0 ) >0 then
+		return 1; --Emlakçı girişi başarılı
+	else
+		return 0; --Emlakçı girişi başarısız
+	end if;
+end
+$$
+language plpgsql
+
+

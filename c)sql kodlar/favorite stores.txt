@@ -1,0 +1,10 @@
+CREATE TABLE public.favorite_stores
+(
+    store_id integer,    
+    user_id integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.favorite_stores
+    OWNER to postgres;

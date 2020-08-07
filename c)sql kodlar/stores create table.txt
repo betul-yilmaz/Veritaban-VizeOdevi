@@ -1,0 +1,36 @@
+-- DROP TABLE public.stores;
+
+
+CREATE SEQUENCE stores_id_seq;
+
+CREATE TABLE public.stores
+(
+    stores_id integer NOT NULL DEFAULT nextval('stores_id_seq'::regclass),
+    "title" character varying COLLATE pg_catalog."default" NOT NULL,
+    price float,
+    "city" character varying COLLATE pg_catalog."default",
+    "county" character varying COLLATE pg_catalog."default",
+	"area" character varying COLLATE pg_catalog."default",
+	"neighborhood" character varying COLLATE pg_catalog."default",
+	release_date date,
+	property_type character varying COLLATE pg_catalog."default",
+	gross integer,
+	clear integer,
+	building_age integer,
+	heating character varying COLLATE pg_catalog."default",
+	using_status integer,
+	dues float,
+	available_for_Loan integer,
+	swap integer,	
+	phone_number character varying COLLATE pg_catalog."default",	
+	explanation character varying COLLATE pg_catalog."default",
+	store_owner bigint,
+	user_id integer,
+    CONSTRAINT stores_pkey PRIMARY KEY ("stores_id"),
+	CONSTRAINT "stores_ownerFK" FOREIGN KEY("store_owner") REFERENCES "owners"("owner_tc")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.stores
+    OWNER to postgres;

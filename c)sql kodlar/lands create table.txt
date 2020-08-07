@@ -1,0 +1,35 @@
+-- DROP TABLE public.lands;
+
+
+CREATE SEQUENCE lands_id_seq;
+
+CREATE TABLE public.lands
+(
+    lands_id integer NOT NULL DEFAULT nextval('lands_id_seq'::regclass),
+    "title" character varying COLLATE pg_catalog."default" NOT NULL,
+     price float,
+    "city" character varying COLLATE pg_catalog."default",
+    "county" character varying COLLATE pg_catalog."default",
+	"area" character varying COLLATE pg_catalog."default",
+	"neighborhood" character varying COLLATE pg_catalog."default",
+	release_date date,
+	property_type character varying COLLATE pg_catalog."default",	
+	island_no integer,
+	parcel_no integer,
+	threader_no integer,
+	zoning_status integer,
+	provision_for_floor integer,
+	available_for_Loan integer,
+	swap integer,		
+	phone_number character varying COLLATE pg_catalog."default",	
+	explanation character varying COLLATE pg_catalog."default",
+	land_owner bigint,
+	user_id integer,
+    CONSTRAINT lands_pkey PRIMARY KEY ("lands_id"),
+	CONSTRAINT "land_ownerFK" FOREIGN KEY("land_owner") REFERENCES "owners"("owner_tc")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.lands
+    OWNER to postgres;

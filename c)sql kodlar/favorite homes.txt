@@ -1,0 +1,10 @@
+CREATE TABLE public.favorite_homes
+(
+    home_id integer,    
+    user_id integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.favorite_homes
+    OWNER to postgres;

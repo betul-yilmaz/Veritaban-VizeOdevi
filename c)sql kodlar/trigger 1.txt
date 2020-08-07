@@ -1,0 +1,12 @@
+CREATE OR REPLACE FUNCTION trigger_fonkiyonu_1() 
+RETURNS TRIGGER AS ' BEGIN IF (to_char(NOW(), ''DY'') IN (''SAT'', ''SUN'') OR to_char(NOW(), ''HH24'') NOT BETWEEN ''09'' AND ''18'') THEN 
+RAISE EXCEPTION ''Sadece mesai günlerinde ve mesai saatlerinde ekleme yapabilirsiniz.''; 
+RETURN NULL; 
+ELSE RETURN NEW; 
+END IF; 
+END; ' 
+LANGUAGE 'plpgsql'; 
+CREATE TRIGGER t_orn1 BEFORE INSERT ON owners FOR EACH ROW EXECUTE PROCEDURE trigger_fonkiyonu_1();
+
+ --DROP TRIGGER t_orn1 on owners
+ --DROP FUNCTION trigger_fonkiyonu_1(); 

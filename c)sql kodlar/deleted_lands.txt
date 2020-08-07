@@ -1,0 +1,28 @@
+CREATE TABLE public.deleted_lands
+(
+    lands_id integer,
+    title character varying COLLATE pg_catalog."default" NOT NULL,
+    price double precision,
+    city character varying COLLATE pg_catalog."default",
+    county character varying COLLATE pg_catalog."default",
+    area character varying COLLATE pg_catalog."default",
+    neighborhood character varying COLLATE pg_catalog."default",
+    release_date date,
+    property_type character varying COLLATE pg_catalog."default",
+    island_no integer,
+    parcel_no integer,
+    threader_no integer,
+    zoning_status integer,
+    provision_for_floor integer,
+    available_for_loan integer,
+    swap integer,
+    phone_number character varying COLLATE pg_catalog."default",
+    explanation character varying COLLATE pg_catalog."default",
+    land_owner bigint,
+    user_id integer
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.deleted_lands
+    OWNER to postgres;

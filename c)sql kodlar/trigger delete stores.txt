@@ -1,0 +1,13 @@
+CREATE OR REPLACE FUNCTION trigger_stores() RETURNS TRIGGER AS'
+BEGIN
+INSERT INTO deleted_stores (stores_id, title, price, city, county, area, neighborhood, release_date, property_type, gross, clear, building_age, heating, using_status, dues, available_for_loan, swap, phone_number, explanation, store_owner, user_id) values (OLD.stores_id, OLD.title, OLD.price, OLD.city, OLD.county, OLD.area, OLD.neighborhood, OLD.release_date, OLD.property_type, OLD.gross, OLD.clear, OLD.building_age, OLD.heating, OLD.using_status, OLD.dues, OLD.available_for_loan, OLD.swap, OLD.phone_number, OLD.explanation, OLD.store_owner, OLD.user_id);
+RETURN OLD;
+END;
+' LANGUAGE 'plpgsql';
+
+CREATE TRIGGER trigger_deleted_stores BEFORE DELETE ON stores
+    FOR EACH ROW 
+    EXECUTE PROCEDURE trigger_stores()
+	
+	 --trigger silmek için önce bu kod: DROP TRIGGER trigger_deleted_stores on stores; 
+	 --trigger silmek için önce bu kod Sonra: DROP FUNCTION trigger_stores(); 

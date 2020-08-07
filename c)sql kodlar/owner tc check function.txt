@@ -1,0 +1,13 @@
+-- create function owners tc check ---
+create function owner_tc_check(_tcno bigint)
+returns int as
+$$
+begin
+	if(select count(*) from owners where owner_tc=_tcno) >0 then
+		return 1; --EMLAK SAHİBİ SİSTEMDE KAYITLI
+	else
+		return 0; --EMLAK SAHİBİ SİSTEMDE KAYITSIZ
+	end if;
+end
+$$
+language plpgsql

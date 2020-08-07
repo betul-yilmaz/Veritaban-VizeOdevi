@@ -1,0 +1,31 @@
+CREATE SEQUENCE user_id_seq;
+-- Table: public.users
+
+-- DROP TABLE public.users;
+
+CREATE TABLE public.users
+(
+    id integer NOT NULL DEFAULT nextval('user_id_seq'::regclass),
+    username character varying COLLATE pg_catalog."default" NOT NULL,
+    passwords character varying COLLATE pg_catalog."default" NOT NULL,
+    namess character varying COLLATE pg_catalog."default",
+    surname character varying COLLATE pg_catalog."default",
+    phone_number character varying COLLATE pg_catalog."default",
+    authority integer,
+    CONSTRAINT users_pkey PRIMARY KEY (username)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.users
+    OWNER to postgres;
+
+
+INSERT INTO public.users(
+	id, username, passwords, namess, surname, phone_number, authority)
+	VALUES (1, 'ozgur', '123', 'özgür', 'kan', '(256) 852-35-45', 0);
+
+INSERT INTO public.users(
+	id, username, passwords, namess, surname, phone_number, authority)
+	VALUES (2, 'talha', '123', 'talha', 'poyraz', '(256) 258-38-42', 1);
+

@@ -1,0 +1,13 @@
+-- create function favorite check home ---
+create function emlakci_login(_home_id integer , _user_id integer)
+returns int as
+$$
+begin
+	if(select count(*) from favorite_homes where home_id=_home_id and user_id = _user_id) >0 then
+		return 1; --daha önce eklenmiş
+	else
+		return 0; --daha önce eklenmemiş
+	end if;
+end
+$$
+language plpgsql
